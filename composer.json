@@ -1,0 +1,21 @@
+{
+    "name": "october-moon/cloud-interfaces",
+    "description": "Interfaces",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moming",
+            "email": "wujianan9090@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php":">=7.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "OctoberMoon\\CloudInterfaces\\":"src/"
+        }
+    }
+}
