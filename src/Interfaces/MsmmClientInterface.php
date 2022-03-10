@@ -15,4 +15,16 @@ interface MsmmClientInterface
      * @return array|false
      */
     public function getSearchGoods($request);
+    
+    /**
+     * addToEs
+     * @param $request = [
+     *                 'type'=>
+     *                 'uuid'=>
+     *                 'request'=>
+     *                 'result'=>
+     *                 ]
+     * @return array|false
+     */
+    public function addToEs($request);
 }
