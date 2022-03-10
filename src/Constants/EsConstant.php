@@ -22,6 +22,7 @@ class EsConstant
         6 => 'turn_chain:eco:statistics_num_kl',
         7 => 'turn_chain:eco:statistics_num_ks',
         8 => 'turn_chain:eco:statistics_num_dy',
+        81 => 'turn_chain:eco:statistics_num_dy_ms',
     ];
     public const TURN_CHAIN_TYPE_ECO_STATISTICS_NUM_FAIL_ARR = [
         0 => 'turn_chain:eco:statistics_num_other_fail',
@@ -33,6 +34,7 @@ class EsConstant
         6 => 'turn_chain:eco:statistics_num_kl_fail',
         7 => 'turn_chain:eco:statistics_num_ks_fail',
         8 => 'turn_chain:eco:statistics_num_dy_fail',
+        81 => 'turn_chain:eco:statistics_num_dy_ms_fail',
     ];
     public const TURN_CHAIN_TYPE_ATK_STATISTICS_NUM_ARR      = [
         0 => 'turn_chain:atk:statistics_num_other',
@@ -102,7 +104,7 @@ class EsConstant
         self::TURN_CHAIN_TYPE_CQ      => 100,
         self::TURN_CHAIN_TYPE_MS      => 100,
         self::TURN_CHAIN_TYPE_MS_INFO => 10,
-        self::LOGIN_TYPE_ECO      => 10,
+        self::LOGIN_TYPE_ECO      => 2,
         self::LOGIN_TYPE_ECO_SYNC => 10,
     ];
 
