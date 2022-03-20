@@ -30,5 +30,5 @@ interface TurnChainClientInterface
      *                 ]
      * @return bool
      */
-    public function turnChainSetCache($request): bool;
+    public function turnChainSetCache($request): ?bool;
 }
