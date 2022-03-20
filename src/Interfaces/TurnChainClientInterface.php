@@ -21,4 +21,14 @@ interface TurnChainClientInterface
      * @return string|string[]
      */
     public function turnChainByMsmmDy($request);
+
+    /**
+     * turnChainSetCache
+     * @param $request =[
+     *                 "content" => string, // 转链内容
+     *                 "source" => int, // 平台类型
+     *                 ]
+     * @return bool
+     */
+    public function turnChainSetCache($request): bool;
 }
