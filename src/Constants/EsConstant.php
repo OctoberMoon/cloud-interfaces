@@ -146,9 +146,9 @@ class EsConstant
         self::TURN_CHAIN_TYPE_MS      => 10,
         self::TURN_CHAIN_TYPE_MS_INFO => 10,
         self::LOGIN_TYPE_ECO          => 2,
-        self::LOGIN_TYPE_ECO_SYNC     => 10,
-        self::CLOUD_TYPE_SEND         => 3000,
-        self::CLOUD_DEF               => 3000,
+        self::LOGIN_TYPE_ECO_SYNC     => 30000,
+        self::CLOUD_TYPE_SEND         => 5000,
+        self::CLOUD_DEF               => 5000,
     ];
 
 
