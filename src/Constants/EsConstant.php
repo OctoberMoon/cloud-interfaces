@@ -117,7 +117,7 @@ class EsConstant
         self::TURN_CHAIN_TYPE_MS  => 'turn_chain_ms_log',
         self::TURN_CHAIN_TYPE_ATK => 'turn_chain_atk_log',
         self::TURN_CHAIN_TYPE_CQ  => 'turn_chain_cq_log',
-        self::LOGIN_TYPE_ECO      => 'login_eco_log',
+        self::LOGIN_TYPE_ECO      => 'eco_log_login',
         self::LOGIN_TYPE_ECO_SYNC => 'login_eco_log_sync',
         self::CLOUD_TYPE_SEND     => 'cloud_eco_send_log',
     ];
