@@ -9,6 +9,7 @@ class EsConstant
     public const LOGIN_TYPE_ECO                 = 1001;
     public const LOGIN_TYPE_ECO_SYNC            = 1002;
     public const CLOUD_TYPE_SEND                = 1003;
+    public const CLOUD_TYPE_TEST                = 1004;
     public const TURN_CHAIN_TYPE_ECO_REQUEST    = 11;
     public const TURN_CHAIN_TYPE_ECO_REQUEST_MS = 12;
     public const TURN_CHAIN_TYPE_ATK            = 2;
@@ -120,6 +121,7 @@ class EsConstant
         self::LOGIN_TYPE_ECO      => 'eco_log_login',
         self::LOGIN_TYPE_ECO_SYNC => 'login_eco_log_sync',
         self::CLOUD_TYPE_SEND     => 'cloud_eco_send_log',
+        self::CLOUD_TYPE_TEST     => 'test_log',
     ];
     public static array $turnChainTypeKeyFailMap = [
         self::TURN_CHAIN_TYPE_ECO => self::TURN_CHAIN_TYPE_ECO_STATISTICS_NUM_FAIL_ARR,
@@ -146,10 +148,9 @@ class EsConstant
         self::TURN_CHAIN_TYPE_MS      => 10,
         self::TURN_CHAIN_TYPE_MS_INFO => 10,
         self::LOGIN_TYPE_ECO          => 2,
-        self::LOGIN_TYPE_ECO_SYNC     => 30000,
-        self::CLOUD_TYPE_SEND         => 5000,
+        self::LOGIN_TYPE_ECO_SYNC     => 10000,
+        self::CLOUD_TYPE_SEND         => 10000,
+        self::CLOUD_TYPE_TEST         => 10000,
         self::CLOUD_DEF               => 5000,
     ];
-
-
 }
