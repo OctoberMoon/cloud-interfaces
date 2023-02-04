@@ -12,6 +12,13 @@ interface TurnChainClientInterface
     public function turnChain($request): ?array;
 
     /**
+     * turnChainByQB
+     * @param $request
+     * @return array|null
+     */
+    public function batchConvertPdd($request): ?array;
+
+    /**
      * dyByMsmm
      * @param $request=[
      *                 "inviteCode"  => string, // inviteCode

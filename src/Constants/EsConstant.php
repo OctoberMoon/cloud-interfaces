@@ -140,20 +140,18 @@ class EsConstant
 
     public static array $turnChainRequestTypeKeyMap = [
         self::TURN_CHAIN_TYPE_ECO_REQUEST => self::TURN_CHAIN_REQUEST_ECO_STATISTICS_NUM_ARR,
-//        self::TURN_CHAIN_TYPE_ATK => self::TURN_CHAIN_TYPE_ATK_STATISTICS_NUM_ARR,
-//        self::TURN_CHAIN_TYPE_CQ  => self::TURN_CHAIN_TYPE_CQ_STATISTICS_NUM_ARR,
     ];
     public static array $ecoTurnChainLimitMap = [
-        self::TURN_CHAIN_TYPE_ECO     => 10,
-        self::TURN_CHAIN_TYPE_ATK     => 10,
+        self::TURN_CHAIN_TYPE_ECO     => 5000,
+        self::TURN_CHAIN_TYPE_ATK     => 100,
         self::TURN_CHAIN_TYPE_CQ      => 10,
         self::TURN_CHAIN_TYPE_MS      => 10,
         self::TURN_CHAIN_TYPE_MS_INFO => 10,
         self::LOGIN_TYPE_ECO          => 2,
-        self::LOGIN_TYPE_ECO_SYNC     => 10000,
-        self::CLOUD_TYPE_SEND         => 10000,
+        self::LOGIN_TYPE_ECO_SYNC     => 5000,
+        self::CLOUD_TYPE_SEND         => 5000,
         self::CLOUD_DEF               => 5000,
-        self::CLOUD_TYPE_TEST         => 10000,
+        self::CLOUD_TYPE_TEST         => 5000,
         self::COLLECTION_LOG          => 5,
     ];
 }
